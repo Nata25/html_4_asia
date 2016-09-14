@@ -28,13 +28,13 @@ header {
 .logo,
 .contacts {
     flex: 1;
-    color: #128AA7;
+    color: #49ADC0;
     font-size: .8em;
 }
 
 .contacts > a,
 .countries > a {
-    color: #128AA7;
+    color: #49ADC0;
 }
 
 .logo {
@@ -43,7 +43,7 @@ header {
     min-width: 30%;
     margin-left: 20px;
     padding-top: 100px;
-    background: #FFF url("../img/logo.png") no-repeat center center;
+    background: #FFF url("../img/logo.png") no-repeat center bottom;
     text-align: center;
 }
 
@@ -65,7 +65,7 @@ header {
     margin-bottom: 5px;
     height: 55px;
     min-width: 42px;
-    padding-top: 43px;
+    padding-top: 45px;
     text-align: center;
 }
 
@@ -121,6 +121,7 @@ header {
 
 .main-nav ul {
     background: #323232;
+    background: linear-gradient(#373737, #303030);
 }
 
 .main-nav a {
@@ -128,6 +129,7 @@ header {
     box-sizing: border-box;
     padding: 7px;
     color: #FFF;
+    font-size: .9em;
     text-decoration: none;
 }
 
@@ -199,7 +201,7 @@ header {
 /* FOOTER */
 
 footer {
-    margin: 10px auto 20px;
+    margin: 10px auto 15px;
     text-align: center;
     color: #E6F9FD;
     font-size: .8em;
