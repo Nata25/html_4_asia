@@ -22,7 +22,7 @@ p {
 
 header {
     display: flex;
-    height: 157px;
+    height: 175px;
     flex-flow: column wrap;
 }
 
@@ -42,6 +42,7 @@ header {
     flex-basis: 100%;
     box-sizing: border-box;
     min-width: 30%;
+    margin-left: 20px;
     padding-top: 100px;
     background: #FFF url("../img/logo.png") no-repeat center center;
     text-align: center;
