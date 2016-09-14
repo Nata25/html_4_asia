@@ -98,7 +98,6 @@ header {
 .hero {
     border-top: 1px solid #128AA7;
     border-bottom: 1px solid #128AA7;
-
 }
 
 .main-nav {
@@ -133,18 +132,18 @@ header {
     text-decoration: none;
 }
 
-.inner {
+.include > ul {
     position: absolute;
     top: 31px;
-    opacity: 0;
+    display: none;
 }
 
-.inner li {
+.include li {
     width: 145px;
 }
 
 .main-nav > ul > li.include:hover > ul {
-    opacity: 1;
+    display: block;
 }
 
 .include a::after {
