@@ -185,11 +185,11 @@ header {
 }
 
 .info {
-    border-right: 1px solid black;
+    border-right: 1px solid #A9A8A8;
 }
 
 .news {
-    border-left: 1px solid black;
+    border-left: 1px solid #A9A8A8;
 }
 
 .center {
@@ -197,3 +197,10 @@ header {
 }
 
 /* FOOTER */
+
+footer {
+    margin: 10px auto 20px;
+    text-align: center;
+    color: #E6F9FD;
+    font-size: .8em;
+}
