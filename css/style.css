@@ -117,6 +117,14 @@ header {
 
 .main-nav > ul > li {
     position: relative;
+    /*border: 1px solid red;*/
+    width: 20%;
+}
+
+.main-nav > ul > li:first-child,
+.main-nav > ul > li:last-child,
+.main-nav > ul > li:nth-child(6) {
+    text-align: center;
 }
 
 .main-nav ul {
@@ -126,11 +134,14 @@ header {
 
 .main-nav a {
     display: inline-block;
-    box-sizing: border-box;
     padding: 7px;
     color: #FFF;
     font-size: .9em;
     text-decoration: none;
+}
+
+.include {
+    height: 31px; /* prevent dropdown menu collapse on the ul border-bottom */
 }
 
 .include > ul {
@@ -147,16 +158,17 @@ header {
     display: block;
 }
 
-.include a::after {
+.include::after {
     content: '';
-    width: 0;
+    /*width: 0;
     height: 0;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     border-top: 8px solid #FFF;
     position: absolute;
     top: 12px;
-    right: -6px;
+    right: -6px;*/
+    background: url('../img/sprite2.png');
 }
 
 /* MAIN */
