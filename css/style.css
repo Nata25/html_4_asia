@@ -64,33 +64,34 @@ header {
     margin-left: 5px;
     margin-bottom: 5px;
     height: 55px;
-    min-width: 42px;
+    width: 51px;
     padding-top: 45px;
     text-align: center;
+    background: url('../img/sprite.png') 4px 0 no-repeat;
 }
-
+/*
 .india {
-    background: url('../img/india.png') no-repeat center top;
+    background-position: 0 0;
+}*/
+
+.countries > a.nepal {
+    background-position: -46px 0;
 }
 
-.nepal {
-    background: url('../img/nepal.png') no-repeat center top;
+.countries > a.tibet {
+    background-position: -98px 0;
 }
 
-.tibet {
-    background: url('../img/tibet.png') no-repeat center top;
+.countries > a.bhutan {
+    background-position: -149px 0;
 }
 
-.bhutan {
-    background: url('../img/bhutan.png') no-repeat center top;
+.countries > a.sri-lanka {
+    background-position: -201px 0;
 }
 
-.sri-lanka {
-    background: url('../img/sri-lanka.png') no-repeat center top;
-}
-
-.maldives {
-    background: url('../img/maldives.png') no-repeat center top;
+.countries > a.maldives {
+    background-position: -254px 0;
 }
 
 /* HERO AREA */
