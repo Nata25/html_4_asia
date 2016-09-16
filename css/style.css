@@ -67,7 +67,7 @@ header {
     width: 51px;
     padding-top: 45px;
     text-align: center;
-    background: url('../img/sprite3.png') 4px 0 no-repeat;
+    background: url('../img/sprite.png') 4px 0 no-repeat;
 }
 /*
 .india {
@@ -146,8 +146,9 @@ header {
 
 .include > ul {
     position: absolute;
-    top: 31px;
-    display: none;
+    top: -1000px;
+    opacity: 0;
+    transition: opacity .2s linear;
 }
 
 .include li {
@@ -155,7 +156,8 @@ header {
 }
 
 .include:hover > ul {
-    display: block;
+    top: 31px;
+    opacity: 1;
 }
 
 .include > a::after {
@@ -163,10 +165,9 @@ header {
     content: '';
     width: 8px;
     height: 8px;
-    background: url('../img/sprite5.png') -307px 0 no-repeat;
+    background: url('../img/sprite.png') -303px 0 no-repeat;
     margin: 3px 6px;
     transition: transform .2s linear;
-
 }
 
 .include:hover > a::after {
