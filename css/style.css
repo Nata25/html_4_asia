@@ -158,17 +158,29 @@ header {
     display: block;
 }
 
-.include::after {
+.include > a {
+    position: relative;
+}
+
+.include > a::after {
     content: '';
-    /*width: 0;
+    width: 0;
     height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-right: 8px solid #FFF;
+    position: absolute;
+    margin: 5px;
+    /*background: url('../img/arrow.png');*/
+}
+
+.include:hover > a::after {
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     border-top: 8px solid #FFF;
-    position: absolute;
+    position: relative;
     top: 12px;
-    right: -6px;*/
-    background: url('../img/sprite2.png');
+    right: -6px;
 }
 
 /* MAIN */
