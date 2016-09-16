@@ -67,7 +67,7 @@ header {
     width: 51px;
     padding-top: 45px;
     text-align: center;
-    background: url('../img/sprite.png') 4px 0 no-repeat;
+    background: url('../img/sprite3.png') 4px 0 no-repeat;
 }
 /*
 .india {
@@ -154,33 +154,23 @@ header {
     width: 145px;
 }
 
-.main-nav > ul > li.include:hover > ul {
+.include:hover > ul {
     display: block;
 }
 
-.include > a {
-    position: relative;
-}
-
 .include > a::after {
+    display: inline-block;
     content: '';
-    width: 0;
-    height: 0;
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    border-right: 8px solid #FFF;
-    position: absolute;
-    margin: 5px;
-    /*background: url('../img/arrow.png');*/
+    width: 8px;
+    height: 8px;
+    background: url('../img/sprite5.png') -307px 0 no-repeat;
+    margin: 3px 6px;
+    transition: transform .2s linear;
+
 }
 
 .include:hover > a::after {
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-top: 8px solid #FFF;
-    position: relative;
-    top: 12px;
-    right: -6px;
+    transform: rotate(-90deg);
 }
 
 /* MAIN */
