@@ -25,9 +25,9 @@ header {
     flex-flow: column wrap;
 }
 
-header > * {
+/*header > * {
     border: 1px solid red;
-}
+}*/
 
 .logo,
 .contacts {
@@ -43,18 +43,26 @@ header > * {
 
 .logo {
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
+    position: relative;
     flex-basis: 100%;
     box-sizing: border-box;
-    max-width: 450px;
-    background: #FFF url("../img/logo.png") no-repeat center bottom;
+    width: 350px;
+    /*background: #FFF url("../img/logo.png") no-repeat center bottom;*/
     text-align: center;
 }
 
-.brand {
+.asia-holidays {
+    position: absolute;
+    left: 15px;
+    /*border: 1px solid blue;*/
+    margin: 10px 20px;
+}
+
+.motto {
     margin-top: 30px;
     padding-top: 20px;
+    align-self: center;
 }
 
 .contacts {
